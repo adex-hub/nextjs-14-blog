@@ -5,9 +5,9 @@ import { ModeToggle } from "./ModeToggle";
 export default function Navbar() {
   return (
     <nav className="w-full relative flex items-center justify-between py-5 max-w-2xl mx-auto px-4">
-      <Link href="/" className="font-bold text-3xl">
+      <a href="/" className="font-bold text-3xl">
         Ade&apos;s&nbsp;<span className="text-primary">Blog</span>
-      </Link>
+      </a>
 
       <ModeToggle />
     </nav>
